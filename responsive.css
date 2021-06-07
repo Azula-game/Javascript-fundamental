@@ -1,0 +1,116 @@
+@media (max-width: 1000px) {
+	
+}
+
+@media (max-width: 670px) {
+	.toggle-btn {
+		display: flex;
+	}
+
+	header .logo {
+		padding: 18px 0;
+		font-size: 30px;
+	}
+
+	.menu {
+		display: none;
+		width: 100%
+	}
+
+	header {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.menu ul {
+		width: 100%;
+		background-color: #475f6b;
+		flex-direction: column;
+		padding-left: 0;
+	}
+
+	.menu ul li a {
+		font-size: 14px;
+	}
+
+	.menu.active {
+		display: flex;
+	}
+
+	.switch {
+		float:left;
+	}
+
+	.top-wrapper h1 {
+		font-size:29px;
+		line-height:36px;
+	}
+
+	.top-wrapper p {
+		font-size:19px;
+		line-height: 20px;
+	}
+
+	button {
+		float: left;
+	}
+
+	.top-wrapper {
+		text-align:center;
+	}
+
+	.facebook {
+		margin-bottom:10px;
+	}
+
+	.section {
+		height: 830px;
+	}
+
+	.about-us {
+		width:100%;
+		padding-top: 20px;
+	}
+
+	.about-us h2 {
+		font-size: 32px;
+	}
+
+	.content {
+		width: 100%;
+		float: none;
+	}
+
+	.content .button {
+		margin-top:30px;
+		text-align: center;
+
+	}
+
+	.content .button a {
+		padding: 8px 25px; 
+	}
+
+	.image-section {
+		float:none;
+		width: 100%;
+		margin-top:25px;
+	}
+
+	.contact-form {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	input , textarea{
+		width:280px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.footer-logo {
+		font-size: 25px;
+	}
+}
